@@ -1,0 +1,515 @@
+@media screen and (max-width:768px){
+  .similar-container {
+    font-family: 'MinSans-Regular';
+    position: relative;
+    top: 70px;
+    width: 100%;
+    max-width: 600px;
+    left: 50%;
+    height: calc(100vh - 70px);
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  .similar-container h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  .similar-container h2 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .similar-container .first-step{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .similar-container .first-step .input-image{
+    position: relative;
+    width: 100%;
+  }
+  .similar-container .first-step label{
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .similar-container .first-step label .input-image-label{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+  }
+  .similar-container .first-step input[type="file"]{
+    display:none;
+  }
+  .similar-container .first-step .img-upload-box{
+    position: relative;
+    top:0;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+  }
+  .similar-container .first-step .img-upload-box .accept-image{
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    width: 250px;
+    max-width: 70%;
+    height: 250px;
+    top: 0;
+    object-fit: cover;
+  }
+  .similar-container .first-step .next-step-btn{
+    position:absolute;
+    left:50%;
+    top: 400px;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ccc;
+  }
+  .similar-container .second-step{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+  }
+  .similar-container .first-step .next-step-btn.bttn-default{
+    cursor: inherit;
+  }
+  .similar-container .first-step .next-step-btn.bttn-warning{
+    cursor: pointer;
+  }
+  .similar-container .first-step .img-upload-box .accept-image{
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    max-width: 70%;
+    height: 250px;
+    top: 15px;
+    object-fit: cover;
+  }
+  .similar-container .second-step{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    padding-bottom: 250px;
+  }
+  .similar-container .second-step .result-box .result-message{
+    width: 100%;
+    // margin: 0 auto;
+    position: absolute;
+    top:0;
+  }
+  .similar-container .second-step .result-box .image-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid #333;
+    border-radius: 20px;
+  }
+  .similar-container .second-step .result-box .image-box .result-image{
+    position: absolute;
+    top: 40px;
+    display:block;
+    max-width: 70%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .similar-container .second-step .result-box .retry-btn{
+    position: relative;
+    width: 300px;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .similar-container .second-step .result-box .nickname-btn{
+    position: relative;
+    width: 300px;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .similar-container .second-step .result-box .search-btn{
+    position: relative;
+    width: 300px;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .similar-container .second-step .result-box .feed-btn{
+    position: relative;
+    width: 300px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .similar-container .second-step .nickname-box{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    font-size: 18px;
+  }
+  .similar-container .second-step h2{
+    font-size: 25px;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .similar-container .second-step .nickname-box .nickname-result{
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+  }
+  .similar-container .second-step .btn-box{
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .similar-container .second-step .btn-box .back-btn{
+    cursor: pointer;
+  }
+  .similar-container .second-step .btn-box .next-step-btn{
+    cursor: pointer;
+  }
+  
+}
+@media screen and (min-width:768px){
+  .similar-container {
+    font-family: 'MinSans-Regular';
+    position: relative;
+    height: calc(100vh + 100px);
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    top: 60px;
+    width: 100%;
+    max-width: 800px;
+    padding-bottom: 150px;
+  }
+  .similar-container h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  .similar-container h2 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  .similar-container .first-step{
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .similar-container .first-step .input-image{
+    position: relative;
+    width: 100%;
+  }
+  .similar-container .first-step label{
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .similar-container .first-step label .input-image-label{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+  }
+  .similar-container .first-step input[type="file"]{
+    display:none;
+  }
+  .similar-container .first-step .img-upload-box{
+    position: relative;
+    top:0;
+    margin: 0 auto;
+    width: 100%;
+    height: 350px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .similar-container .first-step .img-upload-box .accept-image{
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    max-width: 70%;
+    height: 300px;
+    top: 15px;
+    object-fit: cover;
+  }
+  .similar-container .first-step .next-step-btn{
+    position:absolute;
+    left:50%;
+    top: 500px;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ccc;
+  }
+  .similar-container .first-step .next-step-btn.bttn-default{
+    cursor: inherit;
+  }
+  .similar-container .first-step .next-step-btn.bttn-warning{
+    cursor: pointer;
+  }
+  .similar-container .first-step .img-upload-box .accept-image{
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    max-width: 70%;
+    height: 300px;
+    top: 15px;
+    object-fit: cover;
+  }
+  .similar-container .second-step{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+  }
+  .similar-container .second-step .result-box .result-message{
+    margin: 0 auto;
+    position: relative;
+    top: 35px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .similar-container .second-step .result-box .image-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border: 1px solid #333;
+    border-radius: 20px;
+  }
+  .similar-container .second-step .result-box .image-box .result-image{
+    position: absolute;
+    top: 40px;
+    display:block;
+    max-width: 70%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .similar-container .second-step .result-box .retry-btn{
+    position: absolute;
+    width: 300px;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .similar-container .second-step .result-box .nickname-btn{
+    position: absolute;
+    width: 300px;
+    top: 550px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .similar-container .second-step .result-box .search-btn{
+    position: absolute;
+    width: 300px;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .similar-container .second-step .result-box .feed-btn{
+    position: absolute;
+    width: 300px;
+    top: 650px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .similar-container .second-step .nickname-box{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    font-size: 18px;
+  }
+  .similar-container .second-step h2{
+    font-size: 24px;
+    width: 600px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .similar-container .second-step .nickname-box .nickname-result{
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+  }
+  .similar-container .second-step .nickname-box .nickname-result:hover{
+    color: white;
+  }
+  .similar-container .second-step .btn-box{
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .similar-container .second-step .btn-box .back-btn{
+    cursor: pointer;
+  }
+  .similar-container .second-step .btn-box .next-step-btn{
+    cursor: pointer;
+  }
+  
+}
+/* KEYFRAMES */
+
+// @keyframes spin {
+//   from {
+//     transform: rotate(0);
+//   }
+//   to{
+//     transform: rotate(359deg);
+//   }
+// }
+// @keyframes spin3D {
+//   from {
+//     transform: rotate3d(.5,.5,.5, 360deg);
+//   }
+//   to{
+//     transform: rotate3d(0deg);
+//   }
+// }
+// @keyframes configure-clockwise {
+//   0% {
+//     transform: rotate(0);
+//   }
+//   25% {
+//     transform: rotate(90deg);
+//   }
+//   50% {
+//     transform: rotate(180deg);
+//   }
+//   75% {
+//     transform: rotate(270deg);
+//   }
+//   100% {
+//     transform: rotate(360deg);
+//   }
+// }
+// @keyframes configure-xclockwise {
+//   0% {
+//     transform: rotate(45deg);
+//   }
+//   25% {
+//     transform: rotate(-45deg);
+//   }
+//   50% {
+//     transform: rotate(-135deg);
+//   }
+//   75% {
+//     transform: rotate(-225deg);
+//   }
+//   100% {
+//     transform: rotate(-315deg);
+//   }
+// }
+// @keyframes pulse {
+//   from {
+//     opacity: 1;
+//     transform: scale(1);
+//   }
+//   to {
+//     opacity: .25;
+//     transform: scale(.75);
+//   }
+// }
+
+/* GRID STYLING */
+
+.spinner-box {
+  width: 100%;
+  position: absolute;
+  top: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+/* PULSE BUBBLES */
+
+.pulse-container {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pulse-bubble {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3ff9dc;
+}
+
+.pulse-bubble-1 {
+    animation: pulse .4s ease 0s infinite alternate;
+}
+.pulse-bubble-2 {
+    animation: pulse .4s ease .2s infinite alternate;
+}
+.pulse-bubble-3 {
+    animation: pulse .4s ease .4s infinite alternate;
+}
+
+#label-container {
+  font-weight: bold;
+  font-size: 5rem;
+}
